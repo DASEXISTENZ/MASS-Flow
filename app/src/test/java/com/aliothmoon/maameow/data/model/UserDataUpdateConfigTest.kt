@@ -1,11 +1,11 @@
-package com.yuanqian.autofarm.data.model
+package com.mas.autofarm.data.model
 
-import com.yuanqian.autofarm.data.repository.DepotRepository
-import com.yuanqian.autofarm.data.repository.DepotSnapshot
-import com.yuanqian.autofarm.data.repository.OperBoxRepository
-import com.yuanqian.autofarm.data.repository.OperBoxSnapshot
-import com.yuanqian.autofarm.domain.models.UserDataUpdateTriggerInterval
-import com.yuanqian.autofarm.maa.task.MaaTaskType
+import com.mas.autofarm.data.repository.DepotRepository
+import com.mas.autofarm.data.repository.DepotSnapshot
+import com.mas.autofarm.data.repository.OperBoxRepository
+import com.mas.autofarm.data.repository.OperBoxSnapshot
+import com.mas.autofarm.domain.models.UserDataUpdateTriggerInterval
+import com.mas.autofarm.maa.task.MaaTaskType
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.flow.MutableStateFlow

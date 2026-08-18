@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
 import java.io.File
 import org.junit.Assert.assertTrue
@@ -44,14 +44,14 @@ class PersistentUiTextContractTest {
     companion object {
         private val TARGETS = listOf(
             TargetFile(
-                "src/main/java/com.yuanqian.autofarm/presentation/state/HomeUiState.kt",
+                "src/main/java/com.mas.autofarm/presentation/state/HomeUiState.kt",
                 forbiddenPatterns = listOf(
                     Regex("""serviceStatusText\s*:\s*String"""),
                     Regex("""runModeUnsupportedMessage\s*:\s*String"""),
                 ),
             ),
             TargetFile(
-                "src/main/java/com.yuanqian.autofarm/presentation/view/panel/FloatingPanelState.kt",
+                "src/main/java/com.mas.autofarm/presentation/view/panel/FloatingPanelState.kt",
                 forbiddenPatterns = listOf(
                     Regex("""title\s*:\s*String"""),
                     Regex("""message\s*:\s*String"""),
@@ -60,32 +60,32 @@ class PersistentUiTextContractTest {
                 ),
             ),
             TargetFile(
-                "src/main/java/com.yuanqian.autofarm/presentation/viewmodel/ToolboxViewModel.kt",
+                "src/main/java/com.mas.autofarm/presentation/viewmodel/ToolboxViewModel.kt",
                 forbiddenPatterns = listOf(
                     Regex("""statusMessage\s*:\s*StateFlow<String>"""),
                     Regex("""MutableStateFlow\(\"\"\)"""),
                 ),
             ),
             TargetFile(
-                "src/main/java/com.yuanqian.autofarm/presentation/viewmodel/CopilotViewModel.kt",
+                "src/main/java/com.mas.autofarm/presentation/viewmodel/CopilotViewModel.kt",
                 forbiddenPatterns = listOf(
                     Regex("""statusMessage\s*:\s*String\s*="""),
                 ),
             ),
             TargetFile(
-                "src/main/java/com.yuanqian.autofarm/presentation/viewmodel/MiniGameDelegate.kt",
+                "src/main/java/com.mas.autofarm/presentation/viewmodel/MiniGameDelegate.kt",
                 forbiddenPatterns = listOf(
                     Regex("""statusMessage\s*:\s*String\s*="""),
                 ),
             ),
             TargetFile(
-                "src/main/java/com.yuanqian.autofarm/schedule/ui/ScheduleEditViewModel.kt",
+                "src/main/java/com.mas.autofarm/schedule/ui/ScheduleEditViewModel.kt",
                 forbiddenPatterns = listOf(
                     Regex("""errorMessage\s*:\s*String\?"""),
                 ),
             ),
             TargetFile(
-                "src/main/java/com.yuanqian.autofarm/presentation/viewmodel/SettingsViewModel.kt",
+                "src/main/java/com.mas.autofarm/presentation/viewmodel/SettingsViewModel.kt",
                 forbiddenPatterns = listOf(
                     Regex("""MutableStateFlow<String\?>\(null\)"""),
                     Regex("""StateFlow<String\?>"""),

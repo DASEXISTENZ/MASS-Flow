@@ -1,13 +1,13 @@
-package com.yuanqian.autofarm.domain.service
+package com.mas.autofarm.domain.service
 
-import com.yuanqian.autofarm.MaaCoreService
-import com.yuanqian.autofarm.RemoteService
-import com.yuanqian.autofarm.data.repository.DepotRepository
-import com.yuanqian.autofarm.data.resource.ItemHelper
-import com.yuanqian.autofarm.data.resource.ItemInfo
-import com.yuanqian.autofarm.domain.models.DropTarget
-import com.yuanqian.autofarm.maa.task.TaskSlot
-import com.yuanqian.autofarm.manager.RemoteServiceManager
+import com.mas.autofarm.MaaCoreService
+import com.mas.autofarm.RemoteService
+import com.mas.autofarm.data.repository.DepotRepository
+import com.mas.autofarm.data.resource.ItemHelper
+import com.mas.autofarm.data.resource.ItemInfo
+import com.mas.autofarm.domain.models.DropTarget
+import com.mas.autofarm.maa.task.TaskSlot
+import com.mas.autofarm.manager.RemoteServiceManager
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkObject

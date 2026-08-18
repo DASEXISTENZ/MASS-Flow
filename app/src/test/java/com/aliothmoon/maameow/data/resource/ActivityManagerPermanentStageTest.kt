@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm.data.resource
+package com.mas.autofarm.data.resource
 
-import com.yuanqian.autofarm.data.model.activity.StageActivityInfo
+import com.mas.autofarm.data.model.activity.StageActivityInfo
 import io.mockk.mockk
 import kotlinx.coroutines.flow.MutableStateFlow
 import org.junit.Assert.assertFalse

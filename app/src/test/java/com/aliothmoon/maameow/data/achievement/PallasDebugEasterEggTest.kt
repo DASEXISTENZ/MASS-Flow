@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm.data.achievement
+package com.mas.autofarm.data.achievement
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

@@ -1,10 +1,10 @@
-package com.yuanqian.autofarm.domain.service
+package com.mas.autofarm.domain.service
 
-import com.yuanqian.autofarm.constant.LogConfig
-import com.yuanqian.autofarm.data.config.MaaPathConfig
-import com.yuanqian.autofarm.data.log.LogEntry
-import com.yuanqian.autofarm.data.model.LogItem
-import com.yuanqian.autofarm.data.model.LogLevel
+import com.mas.autofarm.constant.LogConfig
+import com.mas.autofarm.data.config.MaaPathConfig
+import com.mas.autofarm.data.log.LogEntry
+import com.mas.autofarm.data.model.LogItem
+import com.mas.autofarm.data.model.LogLevel
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.flow.first

@@ -77,8 +77,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.yuanqian.autofarm.action.LAUNCH_PROFILE" />
-                <action android:name="com.yuanqian.autofarm.action.SHOW_SCHEDULE_EXECUTION" />
+                <action android:name="com.mas.autofarm.action.LAUNCH_PROFILE" />
+                <action android:name="com.mas.autofarm.action.SHOW_SCHEDULE_EXECUTION" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -100,7 +100,7 @@
             android:name=".schedule.receiver.ScheduleReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.yuanqian.autofarm.SCHEDULE_TRIGGER" />
+                <action android:name="com.mas.autofarm.SCHEDULE_TRIGGER" />
             </intent-filter>
         </receiver>
 

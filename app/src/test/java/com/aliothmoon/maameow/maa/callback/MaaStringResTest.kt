@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm.maa.callback
+package com.mas.autofarm.maa.callback
 
 import android.content.res.Resources
 import io.mockk.every
@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicInteger
 class MaaStringResTest {
 
     private val resources: Resources = mockk()
-    private val pkg = "com.yuanqian.autofarm"
+    private val pkg = "com.mas.autofarm"
 
     @Before
     fun setUp() {

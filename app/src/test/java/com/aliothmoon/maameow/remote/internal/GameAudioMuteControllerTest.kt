@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm.remote.internal
+package com.mas.autofarm.remote.internal
 
 import android.app.AppOpsManager
 import org.junit.Assert.assertFalse

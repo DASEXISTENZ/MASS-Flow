@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

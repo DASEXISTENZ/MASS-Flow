@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
 import androidx.appcompat.app.AppCompatActivity
 import org.junit.Assert.assertTrue

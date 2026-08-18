@@ -1,7 +1,7 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
-import com.yuanqian.autofarm.data.resource.MiniGameTextRegistry
-import com.yuanqian.autofarm.utils.i18n.UiText
+import com.mas.autofarm.data.resource.MiniGameTextRegistry
+import com.mas.autofarm.utils.i18n.UiText
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

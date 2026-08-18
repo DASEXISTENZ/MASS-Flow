@@ -1,13 +1,13 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
-import com.yuanqian.autofarm.data.config.MaaPathConfig
-import com.yuanqian.autofarm.data.preferences.AppSettingsManager
-import com.yuanqian.autofarm.data.preferences.TaskChainState
-import com.yuanqian.autofarm.data.resource.ActivityManager
-import com.yuanqian.autofarm.data.resource.ItemHelper
-import com.yuanqian.autofarm.data.resource.ResourceDataManager
-import com.yuanqian.autofarm.domain.service.MaaResourceLoader
-import com.yuanqian.autofarm.manager.RemoteServiceManager
+import com.mas.autofarm.data.config.MaaPathConfig
+import com.mas.autofarm.data.preferences.AppSettingsManager
+import com.mas.autofarm.data.preferences.TaskChainState
+import com.mas.autofarm.data.resource.ActivityManager
+import com.mas.autofarm.data.resource.ItemHelper
+import com.mas.autofarm.data.resource.ResourceDataManager
+import com.mas.autofarm.domain.service.MaaResourceLoader
+import com.mas.autofarm.manager.RemoteServiceManager
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

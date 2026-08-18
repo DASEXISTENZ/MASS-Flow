@@ -1,11 +1,11 @@
-package com.yuanqian.autofarm.data.repository
+package com.mas.autofarm.data.repository
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
-import com.yuanqian.autofarm.data.preferences.TaskChainState
-import com.yuanqian.autofarm.utils.JsonUtils
+import com.mas.autofarm.data.preferences.TaskChainState
+import com.mas.autofarm.utils.JsonUtils
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.CompletableDeferred

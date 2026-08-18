@@ -1,10 +1,10 @@
-package com.yuanqian.autofarm.data.notification.provider
+package com.mas.autofarm.data.notification.provider
 
-import com.yuanqian.autofarm.R
-import com.yuanqian.autofarm.data.api.HttpClientHelper
-import com.yuanqian.autofarm.data.notification.NotificationSettings
-import com.yuanqian.autofarm.data.notification.NotificationSettingsManager
-import com.yuanqian.autofarm.utils.i18n.UiText
+import com.mas.autofarm.R
+import com.mas.autofarm.data.api.HttpClientHelper
+import com.mas.autofarm.data.notification.NotificationSettings
+import com.mas.autofarm.data.notification.NotificationSettingsManager
+import com.mas.autofarm.utils.i18n.UiText
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm.utils
+package com.mas.autofarm.utils
 
-import com.yuanqian.autofarm.data.preferences.AppSettingsManager
+import com.mas.autofarm.data.preferences.AppSettingsManager
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

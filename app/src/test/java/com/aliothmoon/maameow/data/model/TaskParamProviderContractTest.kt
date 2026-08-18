@@ -1,13 +1,13 @@
-package com.yuanqian.autofarm.data.model
+package com.mas.autofarm.data.model
 
-import com.yuanqian.autofarm.R
-import com.yuanqian.autofarm.data.repository.DepotRepository
-import com.yuanqian.autofarm.data.repository.DepotSnapshot
-import com.yuanqian.autofarm.data.resource.CharacterInfo
-import com.yuanqian.autofarm.data.resource.ResourceDataManager
-import com.yuanqian.autofarm.domain.service.FightDropsRefresher
-import com.yuanqian.autofarm.maa.task.MaaTaskType
-import com.yuanqian.autofarm.utils.i18n.UiText
+import com.mas.autofarm.R
+import com.mas.autofarm.data.repository.DepotRepository
+import com.mas.autofarm.data.repository.DepotSnapshot
+import com.mas.autofarm.data.resource.CharacterInfo
+import com.mas.autofarm.data.resource.ResourceDataManager
+import com.mas.autofarm.domain.service.FightDropsRefresher
+import com.mas.autofarm.maa.task.MaaTaskType
+import com.mas.autofarm.utils.i18n.UiText
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

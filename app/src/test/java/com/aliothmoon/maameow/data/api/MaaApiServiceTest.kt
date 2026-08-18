@@ -1,7 +1,7 @@
-package com.yuanqian.autofarm.data.api
+package com.mas.autofarm.data.api
 
-import com.yuanqian.autofarm.constant.MaaApi
-import com.yuanqian.autofarm.data.config.MaaPathConfig
+import com.mas.autofarm.constant.MaaApi
+import com.mas.autofarm.data.config.MaaPathConfig
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

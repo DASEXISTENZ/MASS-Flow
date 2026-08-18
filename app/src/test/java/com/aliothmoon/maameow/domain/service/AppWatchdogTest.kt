@@ -1,7 +1,7 @@
-package com.yuanqian.autofarm.domain.service
+package com.mas.autofarm.domain.service
 
-import com.yuanqian.autofarm.data.preferences.TaskChainState
-import com.yuanqian.autofarm.remote.AppAliveStatus
+import com.mas.autofarm.data.preferences.TaskChainState
+import com.mas.autofarm.remote.AppAliveStatus
 import io.mockk.mockk
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

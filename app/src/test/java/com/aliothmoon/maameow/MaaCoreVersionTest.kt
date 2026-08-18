@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
-import com.yuanqian.autofarm.data.resource.MaaCoreVersion
+import com.mas.autofarm.data.resource.MaaCoreVersion
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test

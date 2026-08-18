@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm.domain.service
+package com.mas.autofarm.domain.service
 
-import com.yuanqian.autofarm.data.preferences.AppSettingsManager
+import com.mas.autofarm.data.preferences.AppSettingsManager
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

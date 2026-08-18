@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm.data.model
+package com.mas.autofarm.data.model
 
-import com.yuanqian.autofarm.domain.enums.UiUsageConstants
+import com.mas.autofarm.domain.enums.UiUsageConstants
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive

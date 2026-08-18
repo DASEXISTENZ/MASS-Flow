@@ -1,15 +1,15 @@
-package com.yuanqian.autofarm.domain.usecase
+package com.mas.autofarm.domain.usecase
 
-import com.yuanqian.autofarm.data.model.AwardConfig
-import com.yuanqian.autofarm.data.model.TaskChainNode
-import com.yuanqian.autofarm.data.model.WakeUpConfig
-import com.yuanqian.autofarm.data.preferences.AppSettingsManager
-import com.yuanqian.autofarm.data.preferences.TaskChainState
-import com.yuanqian.autofarm.data.resource.ResourceDataManager
-import com.yuanqian.autofarm.domain.models.RunMode
-import com.yuanqian.autofarm.domain.service.AchievementReporter
-import com.yuanqian.autofarm.domain.service.AppAliveChecker
-import com.yuanqian.autofarm.remote.AppAliveStatus
+import com.mas.autofarm.data.model.AwardConfig
+import com.mas.autofarm.data.model.TaskChainNode
+import com.mas.autofarm.data.model.WakeUpConfig
+import com.mas.autofarm.data.preferences.AppSettingsManager
+import com.mas.autofarm.data.preferences.TaskChainState
+import com.mas.autofarm.data.resource.ResourceDataManager
+import com.mas.autofarm.domain.models.RunMode
+import com.mas.autofarm.domain.service.AchievementReporter
+import com.mas.autofarm.domain.service.AppAliveChecker
+import com.mas.autofarm.remote.AppAliveStatus
 import io.mockk.every
 import io.mockk.mockk
 import junit.framework.TestCase.assertEquals

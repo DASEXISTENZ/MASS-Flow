@@ -1,7 +1,7 @@
-package com.yuanqian.autofarm.schedule
+package com.mas.autofarm.schedule
 
-import com.yuanqian.autofarm.domain.launch.LaunchSource
-import com.yuanqian.autofarm.schedule.model.ScheduleStrategy
+import com.mas.autofarm.domain.launch.LaunchSource
+import com.mas.autofarm.schedule.model.ScheduleStrategy
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals
 import org.junit.Test

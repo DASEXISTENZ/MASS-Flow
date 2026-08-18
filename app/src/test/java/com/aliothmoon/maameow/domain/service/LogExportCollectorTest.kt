@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm.domain.service
+package com.mas.autofarm.domain.service
 
-import com.yuanqian.autofarm.constant.LogConfig
+import com.mas.autofarm.constant.LogConfig
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before

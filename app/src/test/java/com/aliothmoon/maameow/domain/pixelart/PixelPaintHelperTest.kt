@@ -1,10 +1,10 @@
-package com.yuanqian.autofarm.domain.pixelart
+package com.mas.autofarm.domain.pixelart
 
-import com.yuanqian.autofarm.domain.models.pixelart.NormalizedRect
-import com.yuanqian.autofarm.domain.models.pixelart.PixelConvertOptions
-import com.yuanqian.autofarm.domain.models.pixelart.PixelDitherMode
-import com.yuanqian.autofarm.domain.models.pixelart.PixelFitMode
-import com.yuanqian.autofarm.domain.service.pixelart.PixelPaintHelper
+import com.mas.autofarm.domain.models.pixelart.NormalizedRect
+import com.mas.autofarm.domain.models.pixelart.PixelConvertOptions
+import com.mas.autofarm.domain.models.pixelart.PixelDitherMode
+import com.mas.autofarm.domain.models.pixelart.PixelFitMode
+import com.mas.autofarm.domain.service.pixelart.PixelPaintHelper
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

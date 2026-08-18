@@ -1,7 +1,7 @@
-package com.yuanqian.autofarm.presentation.viewmodel
+package com.mas.autofarm.presentation.viewmodel
 
-import com.yuanqian.autofarm.data.model.TaskChainNode
-import com.yuanqian.autofarm.data.model.WakeUpConfig
+import com.mas.autofarm.data.model.TaskChainNode
+import com.mas.autofarm.data.model.WakeUpConfig
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import org.junit.Test

@@ -22,7 +22,7 @@ val gitVersionCode: Int = 400
 val gitVersionName: String = "0.4.0"
 
 android {
-    namespace = "com.yuanqian.autofarm"
+    namespace = "com.mas.autofarm"
     compileSdk = 37
 
 

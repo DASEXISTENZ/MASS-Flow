@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm.data.repository
+package com.mas.autofarm.data.repository
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences

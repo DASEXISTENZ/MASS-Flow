@@ -1,11 +1,11 @@
-package com.yuanqian.autofarm.data.model
+package com.mas.autofarm.data.model
 
-import com.yuanqian.autofarm.data.repository.DepotRepository
-import com.yuanqian.autofarm.data.repository.OperBoxRepository
-import com.yuanqian.autofarm.data.resource.ActivityManager
-import com.yuanqian.autofarm.data.resource.ItemHelper
-import com.yuanqian.autofarm.data.resource.ResourceDataManager
-import com.yuanqian.autofarm.domain.service.FightDropsRefresher
+import com.mas.autofarm.data.repository.DepotRepository
+import com.mas.autofarm.data.repository.OperBoxRepository
+import com.mas.autofarm.data.resource.ActivityManager
+import com.mas.autofarm.data.resource.ItemHelper
+import com.mas.autofarm.data.resource.ResourceDataManager
+import com.mas.autofarm.domain.service.FightDropsRefresher
 import io.mockk.every
 import io.mockk.mockk
 

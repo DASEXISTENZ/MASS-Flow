@@ -1,8 +1,8 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
-import com.yuanqian.autofarm.data.preferences.AppSettingsManager
-import com.yuanqian.autofarm.data.resource.ResourceDataManager
-import com.yuanqian.autofarm.domain.enums.UiUsageConstants
+import com.mas.autofarm.data.preferences.AppSettingsManager
+import com.mas.autofarm.data.resource.ResourceDataManager
+import com.mas.autofarm.domain.enums.UiUsageConstants
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

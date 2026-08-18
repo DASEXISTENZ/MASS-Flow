@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm.domain.models
+package com.mas.autofarm.domain.models
 
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

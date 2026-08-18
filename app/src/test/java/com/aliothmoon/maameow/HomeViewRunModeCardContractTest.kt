@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm
+package com.mas.autofarm
 
 import java.io.File
 import org.junit.Assert.assertFalse
@@ -9,7 +9,7 @@ class HomeViewRunModeCardContractTest {
     @Test
     fun runModeCard_doesNotRenderSecondaryDescriptionText() {
         val source = resolveSourceFile(
-            "src/main/java/com.yuanqian.autofarm/presentation/view/home/HomeView.kt"
+            "src/main/java/com.mas.autofarm/presentation/view/home/HomeView.kt"
         ).readText()
 
         assertFalse(source.contains("R.string.home_run_mode_fg_desc"))

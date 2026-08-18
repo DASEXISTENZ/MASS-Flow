@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm.domain.service
+package com.mas.autofarm.domain.service
 
 import io.mockk.mockk
 import org.junit.Assert.assertEquals

@@ -1,4 +1,4 @@
-package com.yuanqian.autofarm.domain.launch
+package com.mas.autofarm.domain.launch
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

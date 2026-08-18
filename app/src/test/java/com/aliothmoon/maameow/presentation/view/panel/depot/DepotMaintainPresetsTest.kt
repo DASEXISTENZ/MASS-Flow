@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm.presentation.view.panel.depot
+package com.mas.autofarm.presentation.view.panel.depot
 
-import com.yuanqian.autofarm.data.model.DepotMaintainPlan
+import com.mas.autofarm.data.model.DepotMaintainPlan
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Test

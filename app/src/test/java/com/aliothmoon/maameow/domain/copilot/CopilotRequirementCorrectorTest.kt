@@ -1,7 +1,7 @@
-package com.yuanqian.autofarm.domain.copilot
+package com.mas.autofarm.domain.copilot
 
-import com.yuanqian.autofarm.domain.service.copilot.CopilotRequirementCorrector
-import com.yuanqian.autofarm.domain.service.copilot.CopilotRequirementCorrector.Kind
+import com.mas.autofarm.domain.service.copilot.CopilotRequirementCorrector
+import com.mas.autofarm.domain.service.copilot.CopilotRequirementCorrector.Kind
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.int

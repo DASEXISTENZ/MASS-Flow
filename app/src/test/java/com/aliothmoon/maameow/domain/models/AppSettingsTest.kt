@@ -1,6 +1,6 @@
-package com.yuanqian.autofarm.domain.models
+package com.mas.autofarm.domain.models
 
-import com.yuanqian.autofarm.constant.OFFICIAL_SHIZUKU_PACKAGE
+import com.mas.autofarm.constant.OFFICIAL_SHIZUKU_PACKAGE
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
