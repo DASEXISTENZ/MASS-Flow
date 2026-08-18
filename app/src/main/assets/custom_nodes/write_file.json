@@ -1,0 +1,11 @@
+{
+  "id": "write_file",
+  "name": "写入文件",
+  "category": "EXECUTE",
+  "description": "把文本写入指定文件（执行节点，沿顺序线走）",
+  "params": [
+    { "key": "path", "label": "文件路径", "type": "text", "default": "/sdcard/Download/mas_out.txt" },
+    { "key": "text", "label": "内容", "type": "text", "default": "hello" }
+  ],
+  "command": "echo {text} > {path}"
+}

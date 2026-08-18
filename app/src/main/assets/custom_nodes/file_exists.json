@@ -1,0 +1,10 @@
+{
+  "id": "file_exists",
+  "name": "文件存在",
+  "category": "JUDGE",
+  "description": "判断指定文件是否存在（判定节点：是/非）",
+  "params": [
+    { "key": "path", "label": "文件路径", "type": "text", "default": "/sdcard/Download/tmp.txt" }
+  ],
+  "command": "test -f {path}"
+}

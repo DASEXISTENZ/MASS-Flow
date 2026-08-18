@@ -1,0 +1,10 @@
+{
+  "id": "wait_seconds",
+  "name": "等待N秒",
+  "category": "CONTROL",
+  "description": "等待指定秒数（控制节点，可配合循环使用）",
+  "params": [
+    { "key": "seconds", "label": "秒数", "type": "number", "default": "2" }
+  ],
+  "command": "sleep {seconds}"
+}

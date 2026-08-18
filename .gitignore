@@ -1,0 +1,19 @@
+# Gradle / 构建产物
+.gradle/
+build/
+.kotlin/
+*.apk
+*.tar.gz
+
+# 本地配置
+local.properties
+.idea/
+*.iml
+.DS_Store
+.nomedia
+
+# 运行时临时
+*.log
+jniLibs/
+app/src/main/jniLibs/
+

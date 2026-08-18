@@ -1,0 +1,11 @@
+{
+  "clientType": "MAS",
+  "name": "MAS通用",
+  "package": "",
+  "launchActivity": "",
+  "screenW": 1280,
+  "screenH": 720,
+  "dpi": 160,
+  "mode": "background",
+  "defaultTaskEntry": ""
+}
